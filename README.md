@@ -1,6 +1,5 @@
 # GG4F - Guessing Game For Friends
 
-[![N|Solid](https://cldup.com/dTxpPi9lDf.thumb.png)](https://nodesource.com/products/nsolid)
 
 O Guessing Game For Friends (GG4F) é um guessing game - jogo de adivinhação - para amigos, como o nome já diz. Porém, as motivações de criação do jogo foram as seguintes:
   - Distância geografica entre amigos (muitos em outras cidades, estados ou países);
@@ -29,6 +28,7 @@ Foram utilizadas variáveis globais para manter a consistência do jogo.
 ## Instalação
 
 Para jogar, deve clonar o repositório em seu computador e rodar o código. É bem simples.
+
 Os testes foram feitos apenas em MacBook para MacBook.
 
 
