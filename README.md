@@ -8,6 +8,7 @@ O Guessing Game For Friends (GG4F) é um guessing game - jogo de adivinhação -
 
 ## O que faz o GG4F diferente de outro Guessing Game?
 Diferente dos outros guessing games, quem acerta o número certo é quem perde. O GG4F tem o intuito de ser um drinking game, ou seja, ao acertar o número que inicialmente está numa escala de 0 a 100, o usuário tem que beber uma dose de alguma bebida.
+
 A cada palpite errado, o intervalo da escala vai diminuindo de acordo com o palpite, com isso, a dificuldade vai aumentando, pois a chance de acertar o número é maior.
 
 ## Tecnologias utilizadas
@@ -21,8 +22,11 @@ A arquitetura utilizada foi a cliente - servidor, e, para cada cliente, foi cria
 
 ## Funcionamento
 No servidor, o jogo é rodado e apenas são enviadas as mensagens do intervalo - se for a vez do jogador - e a mensagem se acertou ou não o número. 
+
 No cliente, além de receber as mensagens, é enviada a mensagem com o valor que foi "chutado". 
+
 No servidor cada vez que um cliente se conecta, é aberta uma nova thread com o jogo. 
+
 Foram utilizadas variáveis globais para manter a consistência do jogo.
 
 ## Instalação
